@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.0.0 (2025-02-27)
+
+
+### Features
+
+* add linter and release please workflows ([9752795](https://github.com/fsismondi/terraform-azure-container-apps/commit/97527956b6c832ce2ae21c481e53050225b4de0a))
+
+
+### Bug Fixes
+
+* **ingress:** ignore transport change ([484bc83](https://github.com/fsismondi/terraform-azure-container-apps/commit/484bc83f46c6c8f9ee2fd54ddb305b43cc753f53))
+* **ingress:** ignore transport change ([2269b75](https://github.com/fsismondi/terraform-azure-container-apps/commit/2269b75bbab68a9be58560df08c604e2bb35a72f))
+* **template:** ignore container.template changes ([e80f963](https://github.com/fsismondi/terraform-azure-container-apps/commit/e80f963fc5839eb0bb109070f3b30c05cfd12841))
+
 ## [Unreleased](https://github.com/camptocamp/terraform-azure-container-apps/tree/HEAD)
 
 **Merged pull requests:**
