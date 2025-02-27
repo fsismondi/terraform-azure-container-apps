@@ -178,6 +178,7 @@ resource "azurerm_container_registry_token_password" "pushtokenpassword" {
   password1 {
     expiry = timeadd(timestamp(), "24h")
   }
+
   lifecycle {
     ignore_changes = [password1]
   }
@@ -189,6 +190,7 @@ resource "azurerm_container_registry_token_password" "pulltokenpassword" {
   password1 {
     expiry = timeadd(timestamp(), "24h")
   }
+
   lifecycle {
     ignore_changes = [password1]
   }
